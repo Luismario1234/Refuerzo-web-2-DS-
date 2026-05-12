@@ -2,6 +2,7 @@
 
 /* Establece una imagen de fondo para el encabezado */
 #mi-encabezado {
+    font-size: 9rem;
 background-image: url('img/Portada.jpg'); /* Reemplaza 'ruta-de-tu-imagen.jpg'
 con la ubicación de tu imagen */
 background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
@@ -11,7 +12,7 @@ height: 35rem; /* Altura del encabezado (ajusta según tus necesidades) */
 color: #ffffff; /* Color del texto en el encabezado para asegurar la legibilidad */
 text-orientation: upright;
 text-align: center; /* Alinea el contenido al centro del encabezado */
-padding: 70px; /* Espacio de relleno interno para el contenido */
+padding: 45px; /* Espacio de relleno interno para el contenido */
 
 } 
 /*CONFIGURACION DEL MENU*/
