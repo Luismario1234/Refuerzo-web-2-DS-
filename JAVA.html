@@ -1,0 +1,88 @@
+<!DOCTYPE html> <!-- Indica que es un documento HTML, de lo contrario si no lo
+ponemos, lo interpretaria como codigo antiguo antes de los 90's Quirks mode,
+aparecerian codigos antiguos -->
+<html lang="es">
+
+<!--invoca al archivo style.css que contiene todas las configuraciones de estilos de
+la página-->
+<link rel="stylesheet" href="styles.css">
+
+<!-- Encabezado, el valor atributo id invoca a una funcion del archivo style.css
+para dar el formato del menu -->
+<header id="mi-encabezado">
+
+<title>Diseño de arquitectura de software</title>
+<!--Creacion del menú utilizando Nav-->
+<nav>
+<ul>
+<li><a href="index.html">Inicio</a></li>
+<li><a href="HTML.html">HTML </a></li>
+<li><a href="CCS.html">CCS</a></li>
+<li><a href="JAVA.html">JAVA</a></li>
+<li><a href="contact.html">Contacto</a></li>
+
+</ul>
+</nav>
+
+<!--Texto del encabezado-->
+<h1>Diseño de arquitectura de software</h1>
+<p>Acerca de</p>
+
+</header>
+
+<!--Cuerpo del HTML. Las configuraciones de estilos se encuentran en el archivo
+style.css-->
+<body>
+
+<main>
+
+<!--*CONFIGURACION DEL TEXTO EN EL CUERPO. El tamño y tipo de letra
+estan especificados en el archivo style.css*-->
+<section class="contenido">
+<h2> <span style="background-color:rgb(208, 209, 245);" ;>Acerca
+de...</span>
+<tr><td> <hr>
+</hr></h2>
+
+<p>
+<h1> La maquetación <br></h1>
+Es el proceso de organizar y estructurar los elementos visuales de una página web. Imagina que
+estás construyendo una casa: el HTML es el plano y los ladrillos que definen dónde va cada
+habitación, mientras que el CSS es el diseño de interiores que decide el tamaño de los espacios,
+los colores y la posición exacta de los muebles.</p>
+<!-- esta a continuacion un estructura muy basica HTML-->
+ <p>  El esqueleto: HTML<br>
+HTML (HyperText Markup Language) se encarga de la estructura semántica. No se trata de cómo
+se ve, sino de qué es cada cosa. Para maquetar, usamos etiquetas que dividen el contenido:<br>
+• header: El encabezado o menú superior.<br>
+• main: El contenido principal.<br>
+• section y article: Para agrupar bloques de información.<br>
+• footer: El pie de página.<br>
+• div: Un contenedor genérico (se usa cuando no hay una etiqueta semántica específica).<br></p>
+
+<p> <h3> El diseño: CSS</h3></p>
+<p> CSS (Cascading Style Sheets) es el que realmente "maqueta". Toma esos bloques de HTML y los
+posiciona en la pantalla. A lo largo de los años, las técnicas han evolucionado:</p>
+<p> <h3> Métodos modernos de maquetación:</h3></p>
+<p> 1. Flexbox (Unidimensional): Ideal para alinear elementos en una fila o una columna. Es
+perfecto para menús de navegación o centrar cosas<br>
+2. CSS Grid (Bidimensional): Es el estándar de oro actual. Permite crear rejillas complejas
+con filas y columnas simultáneamente, dándote control total sobre el diseño.<br>
+3. El concepto de "Responsive Design" </p>
+
+
+</td></tr>
+
+</section>
+</main>
+
+<!--Pie de pagina-->
+<!--el atributo Class="footer" invoca a una funcion del archivo style.css para dar
+el formato del pie de pagina-->
+<div class="footer">Derechos reservados © 2026 Mario Martir </div>
+
+<!--Invoca al archivo script.js que contiene la funcion que controla el
+comportamiento del menu-->
+<script src="script.js"></script>
+</body>
+</html>
