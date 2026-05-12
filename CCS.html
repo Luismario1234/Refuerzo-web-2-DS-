@@ -39,36 +39,39 @@ style.css-->
 <!--*CONFIGURACION DEL TEXTO EN EL CUERPO. El tamño y tipo de letra
 estan especificados en el archivo style.css*-->
 <section class="contenido">
-<h2> <span style="background-color:rgb(208, 209, 245);" ;>Acerca
-de...</span>
+<h2> <span style="background-color:rgb(208, 209, 245);" ;>Maquetacion</span>
 <tr><td> <hr>
 </hr></h2>
 
 <p>
-<h1> La maquetación <br></h1>
-Es el proceso de organizar y estructurar los elementos visuales de una página web. Imagina que
-estás construyendo una casa: el HTML es el plano y los ladrillos que definen dónde va cada
-habitación, mientras que el CSS es el diseño de interiores que decide el tamaño de los espacios,
-los colores y la posición exacta de los muebles.</p>
-<!-- esta a continuacion un estructura muy basica HTML-->
- <p>  El esqueleto: HTML<br>
-HTML (HyperText Markup Language) se encarga de la estructura semántica. No se trata de cómo
-se ve, sino de qué es cada cosa. Para maquetar, usamos etiquetas que dividen el contenido:<br>
-• header: El encabezado o menú superior.<br>
-• main: El contenido principal.<br>
-• section y article: Para agrupar bloques de información.<br>
-• footer: El pie de página.<br>
-• div: Un contenedor genérico (se usa cuando no hay una etiqueta semántica específica).<br></p>
+<h1> CCS<br></h1>
+<p>El proceso de maquetación web se define como la organización y estructura de los elementos visuales de una página, donde el HTML actúa como el esqueleto semántico (definiendo qué es cada cosa) y el CSS funciona como el diseño de interiores (controlando colores, tamaños y posiciones)</p>
 
-<p> <h3> El diseño: CSS</h3></p>
-<p> CSS (Cascading Style Sheets) es el que realmente "maqueta". Toma esos bloques de HTML y los
-posiciona en la pantalla. A lo largo de los años, las técnicas han evolucionado:</p>
-<p> <h3> Métodos modernos de maquetación:</h3></p>
-<p> 1. Flexbox (Unidimensional): Ideal para alinear elementos en una fila o una columna. Es
-perfecto para menús de navegación o centrar cosas<br>
-2. CSS Grid (Bidimensional): Es el estándar de oro actual. Permite crear rejillas complejas
-con filas y columnas simultáneamente, dándote control total sobre el diseño.<br>
-3. El concepto de "Responsive Design" </p>
+<p><h4> Conceptos básicos de diseño con CSS</h4></p>
+<p> Para maquetar, CSS utiliza reglas que seleccionan un elemento y le dan propiedades.
+     Aquí tienes lo esencial para empezar:<br>
+     
+     Selectores: Indican a qué elemento aplicar el cambio (ej. header, nav, .clase, #id).<br>
+     
+     El Modelo de Caja (Box Model): Todo en la web es una caja. Controlas su tamaño con width (ancho) y height (alto), y su espacio con margin (espacio exterior) y padding (espacio interior).<br>
+     
+     Colores y Fuentes: Propiedades como background-color para el fondo, color para el texto y font-family para la tipografía.<br>
+     
+     Posicionamiento (Flexbox/Grid): Son herramientas modernas de CSS para alinear elementos fácilmente, como poner dos columnas una al lado de la otra o centrar un menú.<br>
+</p>
+
+<p> border-box: Mediante la propiedad box-sizing: border-box;, haces que el contenedor no crezca de tamaño cuando le añades rellenos (padding) o bordes, algo vital para que tu diseño no se rompa.</p>
+<p>overflow: Define qué pasa si el contenido es más grande que el contenedor (puedes ocultarlo con hidden o añadir barras de desplazamiento con scroll).</p>
+<p>::before y ::after: Son contenedores "fantasma" que creas desde CSS para añadir elementos decorativos (como iconos o líneas) sin tener que escribir más código en el HTML.</p>
+
+
+<p><h4>El Modelo de Caja (Box Model)</h4></p> 
+<p> Todo elemento en HTML es una caja rectangular compuesta por cuatro capas esenciales que determinan su tamaño y espacio: Content (el contenido real), Padding (espacio interior), Border (el borde) y Margin (espacio exterior fuera del borde) (pp. 3-4).</p>
+
+<p><h4> Métodos de Posicionamiento Modernos</h4></p>
+<p>Flexbox (Unidimensional): Se especializa en alinear elementos en una sola dirección (fila o columna). Es ideal para componentes pequeños como barras de navegación o para centrar elementos perfectamente (pp. 4, 10).</p>
+<p>CSS Grid (Bidimensional): Es el estándar para crear rejillas complejas que manejan filas y columnas simultáneamente. Se utiliza principalmente para el layout general de la página o galerías de imágenes (pp. 4, 10).</p>
+
 
 
 </td></tr>
