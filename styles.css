@@ -14,7 +14,7 @@
 
 /* AJUSTE DEL TITULO */
 #mi-encabezado h1 {
-    font-size: 10rem; /* Cambia este valor */
+    font-size: 8rem; /* Cambia este valor */
     margin-top: 8rem; /* Baja el titulo */
     font-weight: bold;
 }
