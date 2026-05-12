@@ -25,7 +25,7 @@ para dar el formato del menu -->
 </nav>
 
 <!--Texto del encabezado-->
-<h1>Diseño de arquitectura de software</h1>
+<h1>Diseño Web </h1>
 <p>Acerca de</p>
 
 </header>
@@ -39,36 +39,46 @@ style.css-->
 <!--*CONFIGURACION DEL TEXTO EN EL CUERPO. El tamño y tipo de letra
 estan especificados en el archivo style.css*-->
 <section class="contenido">
-<h2> <span style="background-color:rgb(208, 209, 245);" ;>Acerca
-de...</span>
+<h2> <span style="background-color:rgb(208, 209, 245);" ;>Maquetacion</span>
 <tr><td> <hr>
 </hr></h2>
 
 <p>
-<h1> La maquetación <br></h1>
-Es el proceso de organizar y estructurar los elementos visuales de una página web. Imagina que
-estás construyendo una casa: el HTML es el plano y los ladrillos que definen dónde va cada
-habitación, mientras que el CSS es el diseño de interiores que decide el tamaño de los espacios,
-los colores y la posición exacta de los muebles.</p>
-<!-- esta a continuacion un estructura muy basica HTML-->
- <p>  El esqueleto: HTML<br>
-HTML (HyperText Markup Language) se encarga de la estructura semántica. No se trata de cómo
-se ve, sino de qué es cada cosa. Para maquetar, usamos etiquetas que dividen el contenido:<br>
-• header: El encabezado o menú superior.<br>
-• main: El contenido principal.<br>
-• section y article: Para agrupar bloques de información.<br>
-• footer: El pie de página.<br>
-• div: Un contenedor genérico (se usa cuando no hay una etiqueta semántica específica).<br></p>
+<h1>HTML<br></h1>
 
-<p> <h3> El diseño: CSS</h3></p>
-<p> CSS (Cascading Style Sheets) es el que realmente "maqueta". Toma esos bloques de HTML y los
-posiciona en la pantalla. A lo largo de los años, las técnicas han evolucionado:</p>
-<p> <h3> Métodos modernos de maquetación:</h3></p>
-<p> 1. Flexbox (Unidimensional): Ideal para alinear elementos en una fila o una columna. Es
-perfecto para menús de navegación o centrar cosas<br>
-2. CSS Grid (Bidimensional): Es el estándar de oro actual. Permite crear rejillas complejas
-con filas y columnas simultáneamente, dándote control total sobre el diseño.<br>
-3. El concepto de "Responsive Design" </p>
+<p> La maquetación en HTML es la base de cualquier sitio web; consiste en organizar y estructurar el contenido mediante "cajas" para que el navegador sepa dónde colocar cada elemento.
+    Actualmente, se utiliza HTML5 semántico, que emplea etiquetas con significado propio para que tanto los buscadores como las tecnologías de asistencia entiendan la jerarquía del sitio. Las etiquetas fundamentales son:
+</p>
+
+<p>Contenedores de bloque (ocupan todo el ancho disponible)
+• div — el contenedor genérico más usado, sin significado semántico<br>
+• section — agrupa contenido temáticamente relacionado<br>
+• article — contenido independiente y autónomo (post, noticia)<br>
+• aside— contenido secundario o complementario (barra lateral)<br>
+• header — encabezado de la página o sección<br>
+• footer — pie de página o sección<br>
+• nav — menú o enlaces de navegación<br>
+• main — contenido principal del documento (solo uno por página)<br>
+• figure / figcaption — imagen con su descripción<br></p>
+
+<p>La maquetación web se basa en elegir el contenedor adecuado según su propósito y significado. Los contenedores de bloque, como "di", "section", "article" y "main", estructuran las grandes áreas de la página ocupando todo el ancho, mientras que los contenedores en línea como "span" o "a" se ajustan solo a su contenido. El uso de etiquetas semánticas (como "nav" para menús o "header" 
+  para encabezados) es fundamental, ya que mejora la accesibilidad y el SEO, dejando los "div" exclusivamente para fines estéticos.
+</p>
+
+
+<p>Dentro de estos contenedores, las listas son esenciales para organizar información. 
+    La lista desordenada ("ul") se utiliza mediante viñetas cuando el orden de los elementos no es relevante, como en una lista de ingredientes.
+    Por el contrario, la lista ordenada ("ol") se emplea cuando existe una secuencia lógica o jerarquía, como en un paso a paso o un ranking.
+    Las listas ordenadas ofrecen mayor flexibilidad gracias a atributos como type (para cambiar a letras o números romanos), start (para iniciar en un número específico) o reversed (para cuentas regresivas).
+    En ambos casos, cada ítem se define siempre con la etiqueta "li".
+</p>
+
+<p> Finalmente, para estructuras más complejas, contamos con tablas ("table"), formularios ("form") y elementos de agrupación específica como "figure" para imágenes con leyenda. 
+    Elegir el elemento correcto no solo organiza visualmente el sitio, sino que le otorga sentido estructural al código.
+</p>
+
+<p><h3>Es importante recordar que el HTML solo crea la estructura (el "esqueleto"). Para que esa estructura se vea atractiva y tenga un diseño visual (colores, columnas, espacios), se debe complementar obligatoriamente con CSS.</h3></p>
+
 
 
 </td></tr>
