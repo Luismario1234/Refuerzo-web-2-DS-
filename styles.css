@@ -2,19 +2,22 @@
 
 /* Establece una imagen de fondo para el encabezado */
 #mi-encabezado {
-    font-size: 9rem;
-background-image: url('img/Portada.jpg'); /* Reemplaza 'ruta-de-tu-imagen.jpg'
-con la ubicación de tu imagen */
-background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
-background-position: center; /* Centra la imagen en el encabezado */
-height: 35rem; /* Altura del encabezado (ajusta según tus necesidades) */
+    background-image: url('img/Portada.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 35rem;
 
-color: #ffffff; /* Color del texto en el encabezado para asegurar la legibilidad */
-text-orientation: upright;
-text-align: center; /* Alinea el contenido al centro del encabezado */
-padding: 45px; /* Espacio de relleno interno para el contenido */
+    color: #ffffff;
+    text-align: center;
+    padding: 45px;
+}
 
-} 
+/* AJUSTE DEL TITULO */
+#mi-encabezado h1 {
+    font-size: 10rem; /* Cambia este valor */
+    margin-top: 8rem; /* Baja el titulo */
+    font-weight: bold;
+}
 /*CONFIGURACION DEL MENU*/
 
 /* Establece el fondo transparente para el menú */
